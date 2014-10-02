@@ -1,0 +1,2 @@
+MainPackage=D:\Visual Studio 2013\Projects\Windows Phone Apps\Tipsy\Tipsy.Phone.UI\bin\Release\Tipsy.Phone.UI_1.1.0.2_Bundle\Tipsy.Phone.UI_1.1.0.2_AnyCPU.appx
+SymbolPackage=D:\Visual Studio 2013\Projects\Windows Phone Apps\Tipsy\Tipsy.Phone.UI\AppPackages\Tipsy.Phone.UI_1.1.0.2_Test\Tipsy.Phone.UI_1.1.0.2_AnyCPU.appxsym

@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Tipsy.Phone.UI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Tipsy.Phone.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="0,-4.667,0,4.667">
+        <TextBox x:Name="BillTotalTextBox" HorizontalAlignment="Left" Margin="50,95,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="70" Width="305" PreventKeyboardDisplayOnProgrammaticFocus="True" FontSize="48" TextAlignment="Center" TextChanged="TextBox_TextChanged" Tapped="TextBox_Tapped" InputScope="Number"/>
+        <Slider x:Name="TipSlider" HorizontalAlignment="Left" Margin="50,348,0,0" VerticalAlignment="Top" Width="305" ValueChanged="TipSlider_ValueChanged"/>
+        <Slider x:Name="NumPeopleSlider" HorizontalAlignment="Left" Margin="50,232,0,0" VerticalAlignment="Top" Width="305" ValueChanged="NumPeopleSlider_ValueChanged"/>
+        <TextBlock x:Name="NumPeopleTextLabel" HorizontalAlignment="Left" Margin="306,185,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="36" TextAlignment="Center" RenderTransformOrigin="1.535,0.659"/>
+        <TextBlock x:Name="TipTextLabel" HorizontalAlignment="Left" Margin="306,293,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="36" TextAlignment="Center" RenderTransformOrigin="4.737,0.465"/>
+        <TextBlock x:Name="BillAmountTextLabel" HorizontalAlignment="Left" Margin="50,507,0,0" Text="0" VerticalAlignment="Top" FontSize="72" Width="305"/>
+        <TextBlock HorizontalAlignment="Left" Margin="50,181,0,0" TextWrapping="Wrap" Text="Persons:" VerticalAlignment="Top" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="50,294,0,0" TextWrapping="Wrap" Text="Tip:" VerticalAlignment="Top" FontSize="36" SelectionChanged="TextBlock_SelectionChanged_1"/>
+        <ToggleSwitch x:Name="RoundingSwitch" Header="Rounding" HorizontalAlignment="Left" Margin="173,405,0,0" VerticalAlignment="Top" Toggled="RoundingSwitch_Toggled"/>
+    </Grid>
+</Page>
